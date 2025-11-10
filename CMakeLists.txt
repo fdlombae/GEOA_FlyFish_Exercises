@@ -43,5 +43,8 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 # --- Create executables ---
-add_executable(Lab_01 "tests/Lab_01_test.cpp" "src/Lab_01.cpp")
-target_link_libraries(Lab_01 PRIVATE gtest gtest_main FlyFish)
+add_executable(LAB_06 "tests/Lab_06_test.cpp" "src/Lab_06.cpp")
+target_link_libraries(LAB_06 PRIVATE gtest gtest_main FlyFish)
+
+add_executable(ASS_06 "tests/Ass_06_test.cpp" "src/Ass_06.cpp")
+target_link_libraries(ASS_06 PRIVATE gtest gtest_main FlyFish)

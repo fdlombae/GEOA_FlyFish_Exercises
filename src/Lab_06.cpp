@@ -1,4 +1,4 @@
-#include "Lab_01.h"
+#include "Lab_06.h"
 
 /**
  * Normalizing a multivector
